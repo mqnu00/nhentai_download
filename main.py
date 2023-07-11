@@ -10,9 +10,9 @@ from tqdm import tqdm
 # 计算过，由于为了减轻服务器压力和 cloudflare 的拦截使用了 time.sleep(1)，下载100页的漫画大概需要8分多钟
 
 # 下载的网址
-url = "https://nhentai.net/g/433281/"
+url = ""
 # 保存的地址
-save_path = "D:/图片/comic"
+save_path = ""
 
 # headers 和 cookies 要自己手动填写，不然可能绕不过cloudflare
 
