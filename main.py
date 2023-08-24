@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 
 # 计算过，由于为了减轻服务器压力和 cloudflare 的拦截使用了 time.sleep(1)，下载100页的漫画大概需要8分多钟
+# 如果使用 IDM 下载，77页需要 2 分 14 秒 左右，而且获取到图片源地址后似乎不会被 cloudflare 拦截
 
 # 下载的网址
 url = ""
